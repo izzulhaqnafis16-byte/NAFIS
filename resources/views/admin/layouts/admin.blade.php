@@ -22,7 +22,7 @@
             <a href="{{ route('admin.index') }}"
                 class="text-white text-3xl font-semibold uppercase hover:text-gray-300">
                 @can('admin-only')
-                    Admin judol
+                    Admin
                 @else
                     Writer
                 @endcan

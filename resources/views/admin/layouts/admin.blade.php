@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog CMS - Admin Panel</title>
+    <title>Blog CMS - Admin saya Panel</title>
     <meta name="author" content="Yasser Elgammal">
     <meta name="description" content="Admin panel for managing blog content and settings.">
     <!-- Tailwind -->
@@ -22,7 +22,7 @@
             <a href="{{ route('admin.index') }}"
                 class="text-white text-3xl font-semibold uppercase hover:text-gray-300">
                 @can('admin-only')
-                    Admin
+                    Admin judol
                 @else
                     Writer
                 @endcan
